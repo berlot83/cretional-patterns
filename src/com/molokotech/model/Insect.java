@@ -1,6 +1,11 @@
 package com.molokotech.model;
 
-final public class Insect {
+/**
+ * 
+ * @author Axel
+ *	Builder básico y Singleton
+ */
+public class Insect {
 
 	private String name;
 	private String type;

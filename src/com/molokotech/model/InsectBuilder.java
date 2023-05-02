@@ -1,5 +1,10 @@
 package com.molokotech.model;
 
+/**
+ * 
+ * @author Axel
+ *	Builder avanzado con inner class y Singleton
+ */
 public class InsectBuilder {
 
 	private final String name;
