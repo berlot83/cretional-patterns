@@ -1,9 +1,10 @@
 package com.molokotech.impl;
 
+import org.springframework.stereotype.Component;
 import com.molokotech.interfaces.InsectBehavor;
-import com.molokotech.model.Bug;
 
-public class Roach extends Bug implements InsectBehavor {
+@Component
+public class Roach implements InsectBehavor {
 	
 	@Override
 	public void build() {
